@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Preguntas Series</title>
+        <link rel="icon" type="image/png" href="../../img/favicon.png" />
+        
+        <link rel="stylesheet" href="../../css/index.css">
+    </head>
+    <body>
+        <div class="contenedor" id="quiz">
+            <h2 id="question">Question text</h2>
+            <img  id="img-question" src="" alt="" style="width:350px; height:250px; object-fit:cover">
+            <div class="contenedor-alternativas">
+                <div class="alternativa">
+                    <input
+                        type="radio"
+                        id="a"
+                        name="answer"
+                        class="answer"
+                    />
+                    <label id="a_text" for="a">Question</label>
+                </div>
+                <div class="alternativa">
+                    <input
+                        type="radio"
+                        id="b"
+                        name="answer"
+                        class="answer"
+                    />
+                    <label id="b_text" for="b">Question</label>
+                </div>
+                <div class="alternativa">
+                    <input
+                        type="radio"
+                        id="c"
+                        name="answer"
+                        class="answer"
+                    />
+                    <label id="c_text" for="c">Question</label>
+                </div>
+                <div class="alternativa">
+                    <input
+                        type="radio"
+                        id="d"
+                        name="answer"
+                        class="answer"
+                    />
+                    <label id="d_text" for="d">Question</label>
+                </div>
+            </div>
+                    
+            <button id="submit" class="boton">Enviar</button>
+
+        </div>
+        <script src="../js/series.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </body>
+</html>
